@@ -1,0 +1,205 @@
+.headings{
+    display: inline;
+  }
+  .button{
+    display: inline;
+  }
+ .article-img{
+   padding: 15% 20%;
+ }
+ .article-button{
+   padding: 1% 2%;
+   box-shadow: none;
+   border: solid 1px;
+   border-radius: 3px;
+ }
+ .article-button:hover{
+   background-color: rgb(53, 184, 173);
+   box-shadow: none;
+   border: solid 1px;
+   border-radius: 3px;
+ }
+.subtitles{
+  display: none;
+  font-weight: bold ;
+  position: fixed;
+  width: 39%;
+  list-style: none;
+  left: 1%;
+}
+
+.subtitles__item{
+  padding: 1%;
+  margin: 2%;
+  list-style: none;
+}
+.subtitles_item1{
+width: 35%;
+}
+.subtitles_item2{
+  left: 36%;
+  width: 30%;
+}
+.subtitles_item3{
+  left: 66%;
+}
+
+
+.headings:hover .subtitles{ 
+  display: block;
+  
+}
+.subtitles__item>li{
+  border: solid 0.01vw olive;
+ 
+}
+.subtitles_item1>li {
+  padding: 1%;
+  margin: 1%;
+  background-color: rgba(98, 151, 172, 0.685);
+}
+
+
+.subtitles_item2>li {
+  padding: 1%;
+  margin: 1%;
+  background-color: rgba(149, 98, 172, 0.685);
+}
+
+.subtitles_item3>li {
+  padding: 1%;
+  margin: 1%;
+  background-color: rgba(172, 165, 98, 0.685);
+}
+footer{
+  z-index: -10;
+}
+/*---animation---*/
+
+.headings:hover .subtitles__item li:first-of-type{
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(2) {
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.15s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(3) {
+
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(4) {
+ 
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(5) {
+
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.9s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(6) {
+ 
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(7) {
+
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(8) {
+
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1.8s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(9) {
+
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2.1s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(10) {
+  
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2.4s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(11) {
+
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2.7s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(12) {
+ 
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(13) {
+
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3.3s;
+  animation-fill-mode: forwards ;
+}
+.headings:hover .subtitles__item li:nth-of-type(14) {
+
+  animation-name: subtitles-list;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3.6s;
+  animation-fill-mode: forwards ;
+}
+
+@keyframes  subtitles-list {
+  0% {
+    opacity: 0;
+    transform: translateX(10%);
+  }
+  100% {
+    opacity: 1;
+   transform: translate(0);
+  }
+}
+/*drop в другом файле css*/
+
+.subtitles__item{
+  padding: 1%;
+  margin: 0 0 1% 0;
+}
